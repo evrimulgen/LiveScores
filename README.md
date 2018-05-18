@@ -1,5 +1,5 @@
 # LiveScore
-Simple android app to show live scores of a cricket match submitted through a HTML form. 
+Simple android app to show live scores of a cricket match submitted through an HTML form. 
 
 http://livescoreminiproject.000webhostapp.com/
 <br>Firebase is used in backend. From firebase realtime database live scores are fetched.
