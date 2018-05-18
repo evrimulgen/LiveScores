@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "508346741673",
+    "firebase_url": "https://scoreupdate-b4d3d.firebaseio.com",
+    "project_id": "scoreupdate-b4d3d",
+    "storage_bucket": "scoreupdate-b4d3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508346741673:android:45d712ed5a07ef52",
+        "android_client_info": {
+          "package_name": "com.example.heman.livescore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508346741673-qpk623g484jbt313po9oo0kr67m5e161.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heman.livescore",
+            "certificate_hash": "d81f66d0cb0eca1f46c7595ea29b446a35e41d57"
+          }
+        },
+        {
+          "client_id": "508346741673-agmfs5k71f4ivqn6k96fg7dmoktb3dne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTgp-apOTJoScp-dEkAXJevZzJSCn4Jdc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508346741673-agmfs5k71f4ivqn6k96fg7dmoktb3dne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
