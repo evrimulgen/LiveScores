@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference child=root.child("TotalRuns");
     DatabaseReference details=child.child("Details");
 
-
-    //DatabaseReference child=root.child("TotalRuns");
     TextView runsTx,oversTx,runRateTx,commentsTx;
     private DatabaseReference myRef;
 
@@ -35,30 +33,6 @@ public class MainActivity extends AppCompatActivity {
         oversTx=findViewById(R.id.textView13);
         runRateTx=findViewById(R.id.textView5);
         commentsTx=findViewById(R.id.textView6);
-        //tx.setText(runs);
-
-        /*root.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot details : dataSnapshot.getChildren()) {
-
-                    list.add(dataSnapshot.getValue(String.class));
-                    adapter.notifyDataSetChanged();
-                    Log.d("User Key",child.getKey());
-                    Log.d("User ref",child.getRef().toString());
-                    Log.d("User val", (String) details.getValue());
-                    String run= details.getValue(String.class);
-                    tx.setText(run + "Hi");
-
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });*/
-
         details.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
