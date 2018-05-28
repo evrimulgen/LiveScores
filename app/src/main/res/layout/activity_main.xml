@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingRight="16dp"
+    android:background="@drawable/sports">
 
     <TextView
         android:id="@+id/textView"
@@ -13,8 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
         android:text="Match Details"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
-        android:textStyle="bold"
         android:typeface="monospace" />
 
     <TextView
@@ -29,7 +30,7 @@
         android:layout_toStartOf="@+id/textView"
         android:text="Runs"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:typeface="monospace" />
 
 
@@ -42,7 +43,7 @@
         android:layout_toStartOf="@+id/textView"
         android:text="Overs"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:typeface="monospace" />
 
     <TextView
@@ -54,7 +55,7 @@
         android:layout_alignRight="@+id/textView"
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#B3E5FF"
         android:textSize="20sp"
         android:text="Runs" />
 
@@ -66,7 +67,7 @@
         android:layout_alignStart="@+id/textView11"
         android:layout_alignTop="@+id/textView4"
         android:text="Overs"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#B3E5FF"
         android:textSize="20sp" />
 
     <TextView
@@ -78,7 +79,7 @@
         android:layout_marginBottom="197dp"
         android:text="Run Rate"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:typeface="monospace" />
 
     <TextView
@@ -88,7 +89,7 @@
         android:layout_alignStart="@+id/textView11"
         android:layout_alignTop="@+id/textView3"
         android:text="Run Rate"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#B3E5FF"
         android:textSize="20sp" />
 
     <TextView
@@ -99,7 +100,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="59dp"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#B3E5FF"
         android:textSize="20sp" />
 
 
